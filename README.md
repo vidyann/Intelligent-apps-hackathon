@@ -1,8 +1,5 @@
 ![image](https://user-images.githubusercontent.com/113465005/226238596-cc76039e-67c2-46b6-b0bb-35d037ae66e1.png)
 
-# 3 or 5 days POC VBD powered by: Azure AI Search + Azure OpenAI + Bot Framework + Langchain + Azure SQL + CosmosDB + Bing Search API + Document Intelligence SDK
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MSUSAzureAccelerators/Azure-Cognitive-Search-Azure-OpenAI-Accelerator?quickstart=1)
-[![Open in VS Code Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/MSUSAzureAccelerators/Azure-Cognitive-Search-Azure-OpenAI-Accelerator)
 
 Your organization requires a Multi-Channel Smart Chatbot and a search engine capable of comprehending diverse types of data scattered across various locations. Additionally, the conversational chatbot should be able to provide answers to inquiries, along with the source and an explanation of how and where the answer was obtained. In other words, you want **private and secured ChatGPT for your organization that can interpret, comprehend, and answer questions about your business data**.
 
@@ -13,30 +10,16 @@ The goal of the POC is to show/prove the value of a GPT Virtual Assistant built 
 
 The repo is made to teach you step-by-step on how to build a OpenAI-based Smart Search Engine. Each Notebook builds on top of each other and ends in building the two applications.
 
-**For Microsoft FTEs:** This is a customer funded VBD, below the assets for the delivery.
-
-| **Item**                   | **Description**                                                                                                     | **Link**                                                                                                                                                |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| VBD SKU Info and Datasheet                   | CSAM must dispatch it as "Customer Invested" against credits/hours of Unified Support Contract. Customer decides if 3 or 5 days.                                      | [ESXP SKU page](https://esxp.microsoft.com/#/omexplanding/services/14486/geo/USA/details/1)                                                                                              |
-| VBD Accreditation for CSAs     | Links for CSAs to get the Accreditation needed to deliver the workshop                                                                      | [Link 1](https://learningplayer.microsoft.com/activity/s9261799/launch) , [Link 2](https://learningplayer.microsoft.com/activity/s9264662/launch) |
-| VBD 3-5 day POC Asset (IP)  | The MVP to be delivered  (this GitHub repo)                                     | [Azure-Cognitive-Search-Azure-OpenAI-Accelerator](https://github.com/MSUSAzureAccelerators/Azure-Cognitive-Search-Azure-OpenAI-Accelerator)                |
-| VBD Workshop Deck          | The deck introducing and explaining the workshop                                                                    | [Intro AOAI GPT Azure Smart Search Engine Accelerator.pptx](https://github.com/MSUSAzureAccelerators/Azure-Cognitive-Search-Azure-OpenAI-Accelerator/blob/main/Intro%20AOAI%20GPT%20Azure%20Smart%20Search%20Engine%20Accelerator.pptx) |
-| CSA Training Video         | 2 Hour Training for Microsoft CSA's                                                                    | POC VBD Training Recording (New video coming soon!) |
-
 
 ---
-**Prerequisites Client 3-5 Days POC**
+**Prerequisites  3-5 Days POC**
 * Azure subscription
-* Accepted Application to Azure Open AI, including GPT-4. If customer does not have GPT-4 approved, Microsoft CSAs can lend theirs during the workshop
-* Microsoft members preferably to be added as Guests in clients Azure AD. If not possible, then customers can issue corporate IDs to Microsoft members
-* A Resource Group (RG)  needs to be set for this Workshop POC, in the customer Azure tenant
-* The customer team and the Microsoft team must have Contributor permissions to this resource group so they can set everything up 2 weeks prior to the workshop
+* Accepted Application to Azure Open AI, including GPT-4. 
+* A Resource Group (RG)  needs to be set  in the Azure tenant
+* Contributor permissions to this resource group 
 * A storage account must be set in place in the RG.
-* Customer Data/Documents must be uploaded to the blob storage account, at least two weeks prior to the workshop date
-* A Multi-Tenant App Registration (Service Principal) must be created by the customer (save the Client Id and Secret Value).
-* Customer must provide the Microsoft Team , 10-20 questions (easy to hard) that they want the bot to respond correctly.
-* For IDE collaboration and standarization during workshop, AML compute instances with Jupyper Lab will be used, for this, Azure Machine Learning Workspace must be deployed in the RG
-   * Note: Please ensure you have enough core compute quota in your Azure Machine Learning workspace 
+* Data/Documents must be uploaded to the blob storage account
+* A Multi-Tenant App Registration (Service Principal) must be created (save the Client Id and Secret Value).
 
 ---
 # Architecture 
