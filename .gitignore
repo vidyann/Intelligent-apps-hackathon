@@ -1,5 +1,6 @@
 .amlignore
 .zip
+.env
 .chroma/
 .ipynb_checkpoints/
 .ipynb_aml_checkpoints/ 
