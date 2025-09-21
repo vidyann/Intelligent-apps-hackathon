@@ -3,6 +3,8 @@
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
 name: GPTSmartSearch Apps Deployment
+permissions:
+  contents: read
 env:
   DO_BUILD_DURING_DEPLOYMENT: true
 
